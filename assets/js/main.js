@@ -77,7 +77,7 @@ $(function() {
     /*  OWL CAROUSEL
     /*---------------------------------------*/
     $('#carousel-who-we-are').owlCarousel({
-        autoPlay: true,
+        autoPlay: false,
         slideSpeed: 300,
         paginationSpeed: 400,
         singleItem: true
