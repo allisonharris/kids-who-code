@@ -1,1 +1,1 @@
-# kids-who-code
+Kids Who Code serves as a resouce for kids of all ages who are looking to learn coding.
