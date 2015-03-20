@@ -486,6 +486,10 @@
 .funny-boxes:hover {
   cursor: pointer;
 }
+
+.funnt-boxes-text a {
+  font-color: black;
+}
 .funny-boxes:hover > .funny-boxes-icon {
   color: #fff;
   background-color: #1abc9c;

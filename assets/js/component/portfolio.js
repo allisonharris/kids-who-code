@@ -37,17 +37,18 @@ $(function(){
         }); 
     });
     
-    $('.popup-portfolio').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        fixedContentPos: false,
-        gallery: {
-            enabled: true,
-            preload: [0,2],
-            navigateByImgClick: true,
-            arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
-            tPrev: 'Previous (Left arrow key)',
-            tNext: 'Next (Right arrow key)'
-        }
-    });
+    $('.image-popup-no-margins').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            closeBtnInside: false,
+            fixedContentPos: true,
+            mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+            image: {
+                verticalFit: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300 // don't foget to change the duration also in CSS
+            }
+        });
 });
