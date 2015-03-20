@@ -627,7 +627,7 @@ span.navbar-trigger-close a:hover {
 /*  OUR MAIN SKILLS SECTION
 /*---------------------------------------*/
 #our-main-skills {
-  background-image: url("../img/bg-our-main-skills.jpg");
+  background-image: url("../img/hopscotch.gif");
 }
 #our-main-skills > .section-inner .section-content .section-title {
   color: #b7ada4;
@@ -663,7 +663,7 @@ span.navbar-trigger-close a:hover {
 /*  QUOTE SECTION
 /*---------------------------------------*/
 #quote {
-  background-image: url("../img/bg-quote.jpg");
+  background-image: url("../img/will.jpg");
 }
 #quote > .section-inner .section-content {
   padding-top: 100px;
