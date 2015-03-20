@@ -17,6 +17,12 @@ $(function(){
                 }
             }); 
         };
+
+        $container.isotope({filter: '.hourofcode'});
+
+        $container.isotope({filter: '.webdesign'});
+
+        $container.isotope({filter: '.gamedesign'});
         
         isotopePortfolio('*');
         
