@@ -737,22 +737,30 @@ span.navbar-trigger-close a:hover {
 
 
 /*---------------------------------------*/
-/*  MEET THE TEAM SECTION
+/*  MEET THE FAMOUS CODERS SECTION
 /*---------------------------------------*/
-#meet-the-team .team-item > .team-element {
+
+#meet-the-famous {
+  background-image: url("../img/famous.jpg");
+}
+
+#meet-the-famous > .section-inner .section-content .section-title {
+  color: #b7ada4;
+}
+#meet-the-famous .famous-item > .famous-element {
   position: relative;
   display: block;
   overflow: hidden;
 }
-#meet-the-team .team-item > .team-element:hover > .team-inner {
+#meet-the-famous .famous-item > .famous-element:hover > .famous-inner {
   display: block;
   cursor: pointer;
 }
-#meet-the-team .team-item > .team-element:hover > img {
+#meet-the-famous .famous-item > .famous-element:hover > img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-#meet-the-team .team-item > .team-element > .team-inner {
+#meet-the-famous .famous-item > .famous-element > .famous-inner {
   position: absolute;
   top: 0;
   right: 0;
@@ -765,31 +773,32 @@ span.navbar-trigger-close a:hover {
   filter: alpha(opacity=80);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
 }
-#meet-the-team .team-item > .team-element > .team-inner > .team-detail {
+#meet-the-famous .famous-item > .famous-element > .famous-inner > .famous-detail {
   text-align: center;
   display: table;
   width: 100%;
   height: 100%;
 }
-#meet-the-team .team-item > .team-element > .team-inner > .team-detail > .team-content {
+#meet-the-famous .famous-item > .famous-element > .famous-inner > .famous-detail > .famous-content {
   display: table-cell;
   vertical-align: middle;
   padding: 0 15px;
   color: #fff;
   letter-spacing: 0.2em;
 }
-#meet-the-team .team-item > .team-element > .team-inner > .team-detail > .team-content > h4 {
+#meet-the-famous .famous-item > .famous-element > .famous-inner > .famous-detail > .famous-content > h4 {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 300;
+  color: #fff;
 }
-#meet-the-team .team-item > .team-element > .team-inner > .team-detail > .team-content > p {
+#meet-the-famous .famous-item > .famous-element > .famous-inner > .famous-detail > .famous-content > p {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 300;
 }
 
-.team-content a {
+.famous-content a {
   color: white;
   font-size: 30px;
   font-weight: 300;
@@ -797,7 +806,7 @@ span.navbar-trigger-close a:hover {
   text-transform: uppercase;
 }
 
-#meet-the-team .team-item > .team-element > img {
+#meet-the-famous .famous-item > .famous-element > img {
   display: inline-block;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
@@ -806,19 +815,19 @@ span.navbar-trigger-close a:hover {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-#meet-the-team .team-item.not-right-column.top-column {
+#meet-the-famous .famous-item.not-right-column.top-column {
   margin-bottom: 30px;
 }
 @media (min-width: 1024px) {
-  #meet-the-team .team-item.not-right-column.top-column {
+  #meet-the-famous .famous-item.not-right-column.top-column {
     margin-bottom: 0px;
   }
 }
-#meet-the-team .team-item.not-right-column {
+#meet-the-famous .famous-item.not-right-column {
   margin-bottom: 30px;
 }
 @media (min-width: 768px) {
-  #meet-the-team .team-item.not-right-column {
+  #meet-the-famous .famous-item.not-right-column {
     margin-bottom: 0px;
   }
 }
