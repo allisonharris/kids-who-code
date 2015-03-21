@@ -788,6 +788,15 @@ span.navbar-trigger-close a:hover {
   font-size: 16px;
   font-weight: 300;
 }
+
+.team-content a {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
 #meet-the-team .team-item > .team-element > img {
   display: inline-block;
   -webkit-transition-duration: 0.5s;
@@ -819,7 +828,7 @@ span.navbar-trigger-close a:hover {
 /*  TESTIMONIALS SECTION
 /*---------------------------------------*/
 #testimonials {
-  background-image: url("../img/bg-testimonial.jpg");
+  background-image: url("../img/shoes.jpg");
 }
 #testimonials > .section-inner .section-content .section-title {
   color: #b7ada4;
