@@ -119,13 +119,6 @@ $(function(){
         });
         
         
-        /*---------------------------------------*/
-        /*  MAP
-        /*---------------------------------------*/        
-        $('#cd-google-map').css('opacity', 0).one('inview', function(isInView){
-            if (isInView) {$(this).addClass('animated flipInX').css('opacity', 1);}
-        });
-        
        
         /*---------------------------------------*/
         /*  FOOTER
