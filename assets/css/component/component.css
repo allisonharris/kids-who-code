@@ -487,12 +487,20 @@
   cursor: pointer;
 }
 
-.funnt-boxes-text a {
-  font-color: black;
+.funny-boxes-text a {
+  color: black;
+  font-size: 35px;
 }
 .funny-boxes:hover > .funny-boxes-icon {
   color: #fff;
   background-color: #1abc9c;
+  font-size: 35px;
+}
+
+.funny-boxes:hover > .funny-boxes-icon a {
+  color: #fff;
+  background-color: #1abc9c;
+  font-size: 35px;
 }
 .funny-boxes > .funny-boxes-icon {
   position: relative;
@@ -504,6 +512,14 @@
   border: 1px solid #1abc9c;
   border-radius: 50%;
   color: #1abc9c;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+.funny-boxes-icon a {
+  color: #1abc9c;
+  font-size: 45px;
 }
 .funny-boxes > .funny-boxes-icon > i {
   font-size: 35px;
@@ -576,10 +592,10 @@
   transition-property: transform;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .funny-boxes.float-shadow > .funny-boxes-icon:before {
